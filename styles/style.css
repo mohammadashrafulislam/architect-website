@@ -237,4 +237,16 @@ body{
         flex-direction: column;
         gap: 60px;
     }
+    .feature-img img {
+        width: 100%;
+    }
+    .down-box{
+        text-align: center;
+    }
+    .down-box h3{
+        font-size: 35px;
+    }
+    .down-box p{
+        font-size: 15px;
+    }
 }
