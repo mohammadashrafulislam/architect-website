@@ -245,7 +245,14 @@ body{
         color: #FFFFFF;
         font-size: 15px;s
     }
-    
+    .fact-boxes{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 5px;
+    }
+    .facts-section{
+        padding: 10px;
+        margin: 60px 0;
+    }
 }
 
 
@@ -285,5 +292,13 @@ body{
     }
     .down-box p{
         font-size: 15px;
+    }
+    .fact-boxes{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 5px;
+    }
+    .facts-section{
+        padding: 0 60px;
+        margin: 0;
     }
 }
