@@ -153,7 +153,44 @@ body{
     font-size: 25px;
     margin-top: 0;
 }
-
+/* Facts Section Style */
+.facts-section{
+    margin: 30px 120px;
+}
+.facts-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+.facts-des{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.fact-boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+    margin: 100px 0;
+}
+.fact-box{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 35px 30px;
+}
+.fact-box-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 0;
+}
+.fact-box-des{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -50px;
+}
 
 /* Mobile Responsive */
 @media only screen and (max-width:576px) {
