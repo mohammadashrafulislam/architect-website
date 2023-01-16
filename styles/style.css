@@ -167,6 +167,7 @@ body{
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+    padding-right: 600px;
 }
 .fact-boxes{
     display: grid;
@@ -210,6 +211,7 @@ body{
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+    padding: 10px 400px;
 }
 .blogs-section{
     display: grid;
@@ -272,6 +274,16 @@ body{
 .blog:hover #learnmorebtn{
     transform: translateX(0px);
 }
+/* Sponsor Section */
+.sponsors{
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    padding: 10px 200px;
+    margin-bottom: 80px;
+    opacity: 50%;
+}
 /* Mobile Responsive */
 @media only screen and (max-width:576px) {
     .nav{
@@ -325,6 +337,10 @@ body{
         color: #FFFFFF;
         font-size: 15px;s
     }
+    /* Facts Section Responsive */
+    .facts-des{
+        padding: 20px 0;
+    }
     .fact-boxes{
         grid-template-columns: repeat(1,1fr);
         margin-top: 5px;
@@ -336,6 +352,9 @@ body{
     }
     
     /* Blog Section Responsive */
+    .Section-des{
+        padding: 10px;
+    }
     .blogs-section{
         grid-template-columns: repeat(1, 1fr);
         margin: 20px;
@@ -343,6 +362,14 @@ body{
     .blog-title{
         font-size: 16px;
     }
+    /* Sponsor Section Responsive */
+    .sponsors{
+        gap: 32px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        padding: 0;
+    }
+    
 }
 
 
@@ -374,11 +401,13 @@ body{
     .feature-img img {
         width: 100%;
     }
-    .down-box{
-    }
-    
     .down-box p{
         font-size: 15px;
+    }
+    /* Facts Section Responsive */
+    .facts-des{
+        padding: 20px 0;
+        padding-right: 50px;
     }
     .fact-boxes{
         grid-template-columns: repeat(2,1fr);
@@ -389,11 +418,21 @@ body{
         margin: 0;
     }
     /* Blog Section Responsive */
+    .Section-des{
+        padding: 20px 100px;
+    }
     .blogs-section{
         grid-template-columns: repeat(2, 1fr);
         margin: 20px;
     }
     .blog-title{
         font-size: 20px;
+    }
+    /* Sponsor Section Responsive */
+    .sponsors{
+        gap: 32px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        padding: 0;
     }
 }
